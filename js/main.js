@@ -2,8 +2,6 @@
 
 // 1. ask user name
 const name = prompt("What's your name?");
-console.log(name);
-console.log(typeof name)
 
 // 2. ask user surname
 const surname = prompt("What's your surname?");
