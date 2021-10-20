@@ -12,4 +12,6 @@ const surname = prompt("What's your surname?");
 const favcolor = prompt("What's your favourite color?");
 
 // 4. stampa a video: NomeCognomeColore21
-document.getElementById('password').innerHTML = name + surname + favcolor + '21';
+document.getElementById('password').innerHTML =
+// name + surname + favcolor + '21';
+`${name}${surname}${favcolor}21`;
