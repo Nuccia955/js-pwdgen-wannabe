@@ -1,13 +1,15 @@
 /* TASK PASSWORD GENERATOR */
 
-// 1. chiedi nome utente
-//    -dichiara variabile_assegna valore con prompt;
+// 1. ask user name
+const name = prompt("What's your name?");
+console.log(name);
+console.log(typeof name)
 
-// 2. chiedi cognome utente
-//    -dichiara variabile_assegna valore con prompt;
+// 2. ask user surname
+const surname = prompt("What's your surname?");
 
 // 3. chiedi colore preferito utente
-//    -dichiara variabile_assegna valore con prompt;
+const favcolor = prompt("What's your favourite color?");
 
 // 4. stampa a video: NomeCognomeColore21
-//    -seleziona elemento in HTML con id_aggiungi proprietà_assegna valore;
+document.getElementById('password').innerHTML = name + surname + favcolor + '21';
